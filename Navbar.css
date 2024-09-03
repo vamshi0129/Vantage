@@ -1,0 +1,190 @@
+    /* Navbar.css */
+
+    /* General styles for the navbar */
+    header .navbar {
+        background-color: #065a60 !important;
+        color: #fff !important;
+    }
+
+    /* Ensure the panel has the correct background color */
+    header .panel {
+        background-color: #5da3a8 !important;
+        color: #ffffff !important;
+    }
+
+
+    /* Logo container */
+    .nav-logo {
+        margin-right: 20px; /* Space between logo and address */
+        height: 100%; /* Make sure the logo container height matches the navbar */
+        display: flex;
+        align-items: center; /* Center logo vertically */
+        overflow: hidden; /* Prevent overflow */
+        padding-right: 200px;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .nav-logo img {
+        height: 110px; /* Scale the logo to fit the height of the navbar */
+        width: auto; /* Maintain aspect ratio */
+        max-width: 250px; /* Adjust width as needed */
+        filter: invert(1) brightness(2);
+    }
+
+    /* Address section */
+    .nav-address {
+        margin-right: 20px; /* Space between address and search */
+    }
+
+    /* Search bar styling */
+    .nav-search {
+        display: flex;
+        align-items: center;
+        width: 600px; /* Adjust width as needed */
+        height: 40px;
+        border-radius: 4px;
+        background-color: #fff; /* White background */
+        margin-right: 20px; /* Space between search and home */
+    }
+
+    .search-select {
+        background-color: #fff; /* White background */
+        width: 50px;
+        text-align: center;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border: none;
+        color: #000; /* Black text color */
+    }
+
+    .search-input {
+        width: 100%;
+        font-size: 1rem;
+        border: none;
+        background-color: #fff; /* White background */
+        color: #000; /* Black text color */
+    }
+
+    .search-icon {
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        background-color: #ffffff; /* Adjust if needed, this is the icon background color */
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        color: #000; /* Black text color */
+    }
+
+    /* Navigation items */
+    .nav-home {
+        display: flex;
+        align-items: center;
+        margin-right: 20px; /* Space between home and accounts */
+    }
+
+    .nav-home a {
+        text-decoration: none;
+        color: #fff; /* White text color */
+        font-size: 1rem; /* Adjust font size as needed */
+        font-weight: bold; /* Optional: Bold text */
+    }
+
+    .nav-home a:hover {
+        color: #1ce4cd; /* Color on hover */
+    }
+
+    /* Account, returns, and cart sections */
+    .accounts,
+    .returns,
+    .cart {
+        margin-right: 20px; /* Space between items */
+    }
+
+    /* Cart section */
+    .cart a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #fff; /* White text color */
+    }
+
+    .cart a:hover {
+        text-decoration: underline; /* Add underline on hover if desired */
+    }
+
+    .cart i {
+        font-size: 30px;
+        color: #1ce4cd; /* Color of the cart icon */
+    }
+
+    /* Panel section */
+
+
+    .panel-ops {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .panel-ops a {
+        text-decoration: none; /* Remove underline */
+        color: #fff; /* White text color */
+        padding: 10px; /* Add padding for better spacing */
+    }
+
+    .panel-ops a:hover {
+        color: #1ce4cd; /* Change color on hover */
+        border-bottom: 2px solid #1ce4cd; /* Optional: Add underline on hover */
+    }
+
+    /* Border styling */
+    .border {
+        border: 2px solid transparent;
+    }
+
+    .border:hover {
+        border: 1px solid #1ce4cd; /* Border color on hover */
+    }
+
+    /* Icon styling */
+    .icon {
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Address section styling */
+    .adjust {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .add-first {
+        margin: 0;
+        font-size: 14px; /* Adjust font size as needed */
+        color: #fff; /* White text color */
+        width: 5px;
+    }
+
+    .add-icon {
+        display: flex;
+        align-items: center;
+        margin-top: 5px; /* Adjust spacing as needed */
+    }
+
+    .add-icon i {
+        margin-right: 5px;
+        font-size: 14px; /* Adjust icon size as needed */
+        color: #1ce4cd; /* Icon color */
+    }
+
+    .add-sec {
+        margin: 0;
+        font-size: 14px; /* Adjust font size as needed */
+        color: #fff; /* White text color */
+    }

@@ -1,0 +1,133 @@
+
+
+.cart-container {
+  width: 80%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  padding: 100px;
+  background-color: #ffffff;
+}
+
+.cart-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.cart-item div {
+  flex-grow: 1;
+}
+
+.cart-item h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.cart-item p {
+  margin: 5px 0;
+}
+
+.cart-item button {
+  background-color: #065a60;
+  border: 1px solid #ffffff;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.cart-item button:hover {
+  background-color: #065a60;
+}
+
+.cart-item .quantity-controls {
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.cart-item .price{
+  color: #000;
+}
+
+.cart-item .quantity-controls button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-item .quantity-controls p {
+  margin: 0 10px;
+}
+
+.cart-total {
+  text-align: right;
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: #000;
+}
+
+.cart-total span {
+  font-weight: bold;
+}
+
+.cart-empty {
+  text-align: center;
+  font-size: 1.2em;
+  color: #000;
+}
+.proceed-to-checkout-btn {
+  width: 20%;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 400;
+  background: linear-gradient(to top, #5da3a8, #065a60);
+  border: 1px solid #a6a6a6;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-top: 16px; /* Add margin-top to create gap between password input and button */
+}
+
+.proceed-to-checkout-btn:hover {
+  background: linear-gradient(to bottom, #5da3a8, #065a60);
+}
+.proceed-to-checkout-btn:active{
+  background-color: #065a60;
+}
+
+
+.proceed-to-checkout-btn-terms {
+  font-size: 12px;
+  color: #000;
+  margin-top: 16px;
+  line-height: 1.5;
+}
+.proceed-to-checkout-btn-link {
+  color: #129687;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+.remove{
+  margin-top: 10px;
+}
+.proceed-to-checkout-btn-link:hover {
+  color: #129687;
+  text-decoration: underline;
+}

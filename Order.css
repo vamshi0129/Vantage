@@ -1,0 +1,43 @@
+.order-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.order-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.order-container p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+    
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Align it to the top of the viewport */
+    width: 100%; /* Ensure it spans the full width of the viewport */
+    z-index: 1000; 
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}

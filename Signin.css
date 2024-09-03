@@ -1,0 +1,225 @@
+/* General styling for the sign-in container */
+.signin-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding-top: 40px; /* Increase padding to ensure space for the logo */
+}
+
+/* Logo styling */
+.vantage-logo{
+    width: 500px;  
+    height: 175px;  
+
+}
+
+/* Wrapper for the sign-in form */
+.signin-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Sign-in form styling */
+.signin-form {
+    width: 350px;
+    background-color: white;
+    padding: 24px;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signin-form-content {
+    width: 100%;
+}
+
+.signin-title {
+    font-family: 'Amazon Ember', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: black; /* Black text color */
+}
+
+.signin-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.signin-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.signin-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: black; /* Black text color */
+}
+
+.signin-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #a6a6a6;
+    font-size: 16px;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.signin-input:focus {
+    border-color: #e77600;
+    box-shadow: 0 0 5px rgba(231, 118, 0, 0.5);
+}
+
+.signin-error {
+    color: #d93025;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: -6px;
+}
+
+.signin-error-icon {
+    font-family: 'Amazon Ember', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.signin-button {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+    background: linear-gradient(to top, c, #065a60);
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 16px; /* Add margin-top to create gap between password input and button */
+}
+
+.signin-button:hover {
+    background: linear-gradient(to bottom, #5da3a8, #065a60);
+}
+
+.signin-terms {
+    font-size: 12px;
+    color: black; /* Black text color */
+    margin-top: 16px;
+    line-height: 1.5;
+}
+
+.signin-link {
+    color: #0073bb;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.signin-link:hover {
+    color: #e77600;
+    text-decoration: underline;
+}
+
+.signin-help {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.signin-link-help {
+    color: #0073bb;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.signin-link-help:hover {
+    color: #e77600;
+    text-decoration: underline;
+}
+
+.signin-divider {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.signin-divider-line {
+    flex: 1;
+    height: 1px;
+    background-color: #d9d9d9;
+}
+
+.signin-divider-text {
+    font-size: 12px;
+    color: black; /* Black text color */
+    text-align: center;
+    margin: 0 8px;
+}
+
+.signin-create-account-link {
+    width: 100%;
+}
+
+.signin-create-account-button {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+    background: linear-gradient(to top, #5da3a8, #065a60);
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 16px;
+}
+
+.signin-create-account-button:hover {
+    background: linear-gradient(to bottom, #5da3a8, #065a60);
+}
+
+/* Footer styling */
+.signin-footer {
+    width: 100%;
+    background: linear-gradient(to top, #fff, #fff, #d9d9d9);
+    display: flex;
+    flex-direction: column;
+    gap: 200px; /* Adjust the gap to make the footer smaller */
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0; /* Reduce the padding */
+}
+
+.signin-footer-links {
+    display: flex;
+    gap: 16px; /* Reduce the gap between links */
+}
+
+.signin-footer-link {
+    font-size: 12px;
+    color: #0073bb;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.signin-footer-link:hover {
+    color: #e77600;
+    text-decoration: underline;
+}
+
+.signin-footer-text {
+    font-size: 12px;
+    color: #555;
+}

@@ -1,0 +1,127 @@
+/* src/components/OrderHistory.css */
+body{
+    background-color: #fff;
+}
+.order-history-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-history-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.order-history {
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    gap: 20px;  /* Adds even spacing between order containers */
+    margin-top: 100px;
+    width: 100%;
+    max-width: 800px;
+    color: #333;
+}
+.order-box{
+    align-items: center;
+    display:flex;
+    width: 100%;
+    padding-bottom:0px;
+    height: 150px;
+}
+.order-history-container {
+    background-color: #ffffff;
+    padding: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;  /* Centers the order container */
+    width: 100%;  /* Ensures the container takes the full width available */
+    box-sizing: border-box;
+    padding-left: 30px;
+    align-items: end;
+}
+
+.order-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 100px 0;
+}
+
+.order-item:last-child {
+    border-bottom: none;
+}
+
+.order-item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+.order-item-details div {
+    flex: 1;
+    padding: 0 10px;
+    padding-left: 500px;
+}
+
+.order-item-name {
+    font-weight: bold;
+    color: #333;
+    padding-left: 50px;
+}
+
+.order-item-quantity,
+.order-item-price {
+    color: #555;
+}
+
+.order-item-total {
+    font-weight: bold;
+    color: #000;
+}
+
+.order-date {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.no-orders {
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+}
+
+.back-to-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.back-to-home:hover {
+    background-color: #0056b3;
+}
+.order-box{
+    display:flex;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: black;
+    margin-top: 12px;
+    gap:10px;
+}

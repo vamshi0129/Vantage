@@ -1,0 +1,179 @@
+.element {
+    border-top: none; /* Removes the top border */
+}
+
+.registration-container {
+    width: 100%;
+}
+
+.registration-wrapper {
+    padding-top: 100px;
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 10px 0;
+}
+.vantage-logo{
+    padding-top: 10px;
+}
+.registration-form {
+    padding-top: 100px;
+    width: 370px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-form-content {
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    padding: 24px;
+    color: #000;
+}
+
+.registration-title {
+    font-family: 'Amazon Ember', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.registration-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.registration-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.registration-label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.registration-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #a6a6a6;
+    font-size: 16px;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.registration-input:focus {
+    border-color: #e77600;
+    box-shadow: 0 0 5px rgba(231, 118, 0, 0.5);
+}
+
+.registration-error {
+    color: #d93025;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: -6px;
+}
+
+.registration-error-icon {
+    font-family: 'Amazon Ember', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.registration-password-note {
+    font-size: 12px;
+    color: #555;
+}
+
+.registration-button {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+    background: linear-gradient(to top, #5da3a8, #065a60);
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.registration-button:hover {
+    background: linear-gradient(to bottom, #5da3a8);
+}
+
+.registration-terms {
+    font-size: 12px;
+    color: #000;
+    margin-top: 16px;
+    line-height: 1.5;
+}
+
+.registration-link {
+    color: #0073bb;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.registration-link:hover {
+    color: #e77600;
+    text-decoration: underline;
+}
+
+.registration-signin,
+.registration-business {
+    font-size: 12px;
+    color: #000;
+    margin-top: 8px;
+}
+
+.registration-signin .registration-link,
+.registration-business .registration-link {
+    margin-left: 4px;
+}
+
+.registration-footer {
+    width: 100%;
+    background: linear-gradient(to top, #fff, #fff, #d9d9d9);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.registration-footer-links {
+    display: flex;
+    gap: 24px;
+}
+
+.registration-footer-link {
+    font-size: 12px;
+    color: #0073bb;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.registration-footer-link:hover {
+    color: #e77600;
+    text-decoration: underline;
+}
+
+.registration-footer-text {
+    font-size: 12px;
+    color: #555;
+}
+.logo {
+    width: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

@@ -1,0 +1,99 @@
+body {
+  background-color: #ffffff;
+  color: white; /* Ensure the text remains visible on the new background */
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 2.5rem; /* Consolidated padding */
+  min-height: 100vh;
+  background-color: inherit; /* Ensure the container inherits the body background color */
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 2.5rem 0; /* Consolidated margin */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+  margin-top: 5rem;
+}
+
+.card {
+  background-color: white; 
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1a202c;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  color: #131414;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.description {
+  color: #5c636d;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.go-to-cart-btn {
+  display: inline-block;
+  background-color: #065a60;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.go-to-cart-btn:active {
+  background-color: #5da3a8;
+}
+
+.go-to-cart-btn:hover {
+  background-color: #5da3a8;
+}
+
+.cart-message {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #5da3a8;
+  color: black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(17, 17, 17, 0.315);
+  z-index: 1000; 
+  text-align: center;
+}
